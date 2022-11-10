@@ -1,0 +1,248 @@
+:root{
+    --body: white;
+    --nav-color: navy;
+    --latest: black;
+    --white-color: white;
+    --blur-blue: #05668D;
+    --black-color: black;
+    --gold-color: gold;
+    --red-color: red;
+    --crimson-color: crimson;
+    --footer: black;
+    --footer-txt: white;
+    --caddress: black;
+}
+
+.dark{
+    --body: black;
+    --nav-color: navy;
+    --latest: black;
+    --white-color: white;
+    --blur-blue: #05668D;
+    --black-color: black;
+    --gold-color: gold;
+    --red-color: red;
+    --crimson-color: crimson;
+    --footer: black;
+    --footer-txt: white;
+    --caddress: white;
+}
+
+
+.navbar{
+    background-color: var(--nav-color)
+}
+
+.navbar .navbar-brand{
+    color: var(--white-color);
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.caddress{
+    color: var(--caddress)
+}
+
+#navbarSupportedContent a{
+    color: var(--white-color);
+}
+
+.nav-link{
+    color: var(--white-color);
+}
+
+.dropdown-menu{
+    background: var(--nav-color);
+    opacity: .7;
+}
+
+.dropdown-item{
+    color: var(--white-color);
+}
+
+
+.dropdown-item:hover{
+    background: var(--gold-color);
+}
+
+.carousel-indicators button{
+    border-radius: 50%;
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.buton-fre{
+    color: var(--nav-color);
+    background: var(--white-color);
+}
+
+.buton-fre:hover{
+   color: var(--white-color);
+   background: var(--nav-color);
+   border: 1px solid var(--white-color);
+}
+
+.card .imgg{
+    height: 30vh;
+}
+
+.ccform{
+    margin: 5rem;
+}
+
+.form2 form label{
+    color: var(--white-color);
+}
+
+.cform{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.cform form{
+    width: 100%;
+    padding: 1.5rem;
+    background: var(--blur-blue);
+}
+
+.cform form input[type="text"]
+.cform form input[type="email"]{
+    width: 100%;
+    box-shadow: none;
+    color: var(--nav-color);
+    outline: none;
+}
+
+.cform form textarea{
+    width: 100%;
+    height: min(6.5rem);
+    box-shadow: none;
+    outline: none;
+}
+
+.bale{
+    color: var(--blur-blue);
+    background: var(--white-color);
+}
+
+.bale:hover{
+    color: var(--white-color);
+    background: var(--blur-blue);
+    border: 1px solid var(--white-color);
+}
+
+.about{
+    background: url(/img/nature.jpg);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-attachment: fixed;
+    background-position: fixed;
+    height: 40vh;
+}
+
+.about-txt{
+    color: black;
+    position: absolute;
+    margin-top: 3rem;
+    left: 70%;
+    padding: .6rem;
+    background-color: var(--white-color);
+    opacity: .6;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.footer{
+    color: var(--footer-txt);
+    background: var(--black-color);
+}
+
+.footer a{
+    color: var(--footer-txt);
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.fa-brands{
+    font-size: 1.7rem;
+    transition: ease 2s;
+}
+
+.fa-brands:hover{
+    color: var(--red-color);
+    transform: translateY(-20px);
+    transition: ease 2s;
+}
+
+.dog{
+    color: var(--red-color);
+    font-size: 3rem;
+    /* background: black; */
+    /* opacity: 0; */
+    transition: ease 2s;
+}
+
+/* .fa-solid:hover{
+    opacity: .5;
+    transition: ease 2s;
+} */
+
+.fate{
+    border: none;
+}
+
+.latest{
+    color: var(--latest);
+}
+
+.face{
+    font-size: 2rem;
+    color: var(--white-color);
+}
+
+.latest::after{
+    content: '';
+    display: block;
+    height: 1.3rem;
+    width: 4rem;
+    border-radius: 100%;
+    background: var(--crimson-color);
+    margin: auto;
+    transform: translateX(3px);
+}
+
+.latest::before{
+    content: '';
+    display: block;
+    height: .5rem;
+    width: 9rem;
+    border-radius: 100%;
+    background: var(--crimson-color);
+    margin: auto;
+    transform: translateY(50px);
+}
+
+.show-hide{
+    position: relative;
+}
+
+.show{
+    position: absolute;
+    top: 57%;
+    right: 20%;
+}
+
+.show .fa-eye{
+    display: none;
+}
+
+.show .fa-eye-slash{
+    display: block;
+}
+
+.show .shower .fa-eye-slash{
+    display: none;
+}
+
+.
